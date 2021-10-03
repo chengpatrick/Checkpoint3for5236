@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         TextView signUp = (TextView) findViewById(R.id.textView3);
 
         Button loginbtn=(Button)  findViewById(R.id.signinButton);
+        Button fragmenttest=(Button) findViewById(R.id.button);
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SignUpActivity.class));
+            }
+        });
+
+        fragmenttest.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(MainActivity.this, FragmentTest.class));
             }
         });
     }
