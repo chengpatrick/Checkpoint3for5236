@@ -5,14 +5,18 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ChooseDiscussionActivity extends AppCompatActivity {
 
+    private static final  String TAG="ChooseDiscussionActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.i(TAG, "onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_discussion);
 
@@ -36,5 +40,40 @@ public class ChooseDiscussionActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this
         ));
         recyclerView.setAdapter(new MyAdapter(getApplicationContext(),items));
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Log.i(TAG, "onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        Log.i(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+
+        Log.i(TAG, "onPause");
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+
+        Log.i(TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+
+        Log.i(TAG, "onDestroy");
     }
 }
