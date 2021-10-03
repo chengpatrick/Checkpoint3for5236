@@ -5,16 +5,17 @@
       <map>
         <entry key="..\:/Users/24076/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_main.xml" value="0.2725430597771023" />
         <entry key="..\:/Users/24076/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_sign_up.xml" value="0.3411458333333333" />
-        <entry key="..\:/Users/User/Desktop/cse/5236/11/app/src/main/res/layout/activity_choose_discussion.xml" value="0.2046875" />
-        <entry key="..\:/Users/User/Desktop/cse/5236/11/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
-        <entry key="..\:/Users/User/Desktop/cse/5236/11/app/src/main/res/layout/activity_sign_up.xml" value="0.2046875" />
-        <entry key="..\:/Users/User/Desktop/cse/5236/11/app/src/main/res/layout/item_view.xml" value="0.33" />
-        <entry key="..\:/Users/User/Desktop/cse/5236/11/app/src/main/res/layout/list_items.xml" value="0.25" />
         <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3171875" />
         <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" value="0.35208333333333336" />
         <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/drawable/roundedbutton.xml" value="0.3234375" />
+        <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_choose_discussion.xml" value="0.33" />
+        <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_choose_discussion_board.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_discussion_board.xml" value="0.33" />
         <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_main.xml" value="0.291213768115942" />
         <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/activity_sign_up.xml" value="0.31521739130434784" />
+        <entry key="..\:/Users/Xiaoliang Chen/AndroidStudioProjects/Checkpoint3for5236/app/src/main/res/layout/discussion_view.xml" value="0.25769927536231885" />
       </map>
     </option>
   </component>

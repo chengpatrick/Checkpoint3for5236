@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 if(username.getText().toString().equals("admin")&& password.getText().toString().equals("admin")){
                     //correct password
                     Toast.makeText(MainActivity.this,"Login Successful",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this, ChooseDiscussionBoardActivity.class));
                 }
                 else{
                     //incorrect password
