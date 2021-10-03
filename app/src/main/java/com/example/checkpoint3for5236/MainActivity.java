@@ -9,9 +9,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.checkpoint3for5236.databinding.ActivityMainBinding;
-import com.google.android.material.button.MaterialButton;
-
 public class MainActivity extends AppCompatActivity {
 
 
@@ -20,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView username=(TextView) findViewById(R.id.editTextTextPersonName2);
-        TextView password=(TextView) findViewById(R.id.editTextTextPassword2);
+        TextView username=(TextView) findViewById(R.id.editTextTextPersonName3);
+        TextView password=(TextView) findViewById(R.id.editTextTextPassword3);
         TextView signUp = (TextView) findViewById(R.id.textView3);
 
-        Button loginbtn=(Button)  findViewById(R.id.button);
+        Button loginbtn=(Button)  findViewById(R.id.signinButton);
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
